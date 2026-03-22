@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shree Matangi Cake — Pure Home Made Cake</title>
+  <meta name="description" content="Authentic homemade cakes baked fresh on order. Doll Cake, Chocolate, Vanilla, Strawberry. Order in advance for best cake." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar">
+  <div class="navbar-inner">
+    <div class="nav-brand" data-page="home">
+      <div class="nav-brand-icon">🎂</div>
+      <span class="nav-brand-name">Shree Matangi Cake</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a data-page="home" class="active">Home</a></li>
+      <li><a data-page="menu">Menu</a></li>
+      <li><a data-page="order">Order Now</a></li>
+      <li><a data-page="reviews">Reviews</a></li>
+      <li><a data-page="admin">Admin</a></li>
+      <li><a data-page="order" class="nav-order-btn">🛒 Order Cake</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ================================================================ -->
+<!-- HOME PAGE -->
+<!-- ================================================================ -->
+<div id="page-home" class="page">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-image-wrap">
+      <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=1200&q=80" alt="Beautiful homemade cake" />
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="hero-badge">⭐ Premium Home Bakery</div>
+      <h1>Pure Home Made Cake</h1>
+      <p class="hero-tagline">Order In Advance For Best Cake</p>
+      <p class="hero-desc">
+        Experience the magic of authentic homemade cakes. Every slice tells a story of passion, premium ingredients, and perfect sweetness.
+      </p>
+      <div class="hero-buttons">
+        <button class="btn btn-primary" data-page="order">Order Your Cake →</button>
+        <button class="btn btn-outline" data-page="menu">View Menu</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">❤️</div>
+        <h3>Baked with Love</h3>
+        <p>Every cake is handcrafted in small batches ensuring the perfect taste and texture.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🏆</div>
+        <h3>Premium Ingredients</h3>
+        <p>We use only the finest, freshest ingredients. No artificial preservatives.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🕐</div>
+        <h3>Freshly Made</h3>
+        <p>Your cake is baked exactly when you order it, guaranteeing maximum freshness.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Signature Cakes -->
+  <section class="signature">
+    <div class="section-header">
+      <h2>Our Signature Cakes</h2>
+      <p>Our most loved homemade cakes, baked fresh just for you.</p>
+    </div>
+    <div class="sig-grid container">
+      <div class="sig-card">
+        <div class="sig-card-img">
+          <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=800&q=80" alt="Chocolate Cake" />
+          <span class="cake-tag">Chocolate</span>
+        </div>
+        <div class="sig-card-body">
+          <h3>Chocolate Cake</h3>
+          <div class="sig-card-footer">
+            <span class="price-badge">Price as per requirement</span>
+            <button class="btn btn-outline btn-sm" data-page="order">Order</button>
+          </div>
+        </div>
+      </div>
+      <div class="sig-card">
+        <div class="sig-card-img">
+          <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800&q=80" alt="Vanilla Cake" />
+          <span class="cake-tag">Classic</span>
+        </div>
+        <div class="sig-card-body">
+          <h3>Vanilla Cake</h3>
+          <div class="sig-card-footer">
+            <span class="price-badge">Price as per requirement</span>
+            <button class="btn btn-outline btn-sm" data-page="order">Order</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sig-view-all">
+      <button class="btn btn-primary" data-page="menu" style="border-radius:50px;padding:0.85rem 2.5rem">View Full Menu</button>
+    </div>
+  </section>
+
+</div><!-- /page-home -->
+
+<!-- ================================================================ -->
+<!-- MENU PAGE -->
+<!-- ================================================================ -->
+<div id="page-menu" class="page">
+  <div class="page-header">
+    <h1>Our <span>Menu</span></h1>
+    <p>Explore our delightful range of handcrafted cakes. Everything is baked fresh upon order.</p>
+  </div>
+
+  <section class="menu-section">
+    <div class="menu-grid">
+
+      <div class="menu-card">
+        <div class="menu-card-img">
+          <img src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=800&q=80" alt="Doll Cake" />
+          <span class="cake-tag">Kids</span>
+        </div>
+        <div class="menu-card-body">
+          <h3>Doll Cake</h3>
+          <p>A show-stopping doll-shaped cake perfect for kids' birthdays, crafted with love and vibrant colors.</p>
+          <div class="price-req-badge">💰 Price as per your requirement</div>
+          <button class="btn btn-menu-order btn-full" data-page="order">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-card">
+        <div class="menu-card-img">
+          <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=800&q=80" alt="Chocolate Cake" />
+          <span class="cake-tag">Chocolate</span>
+        </div>
+        <div class="menu-card-body">
+          <h3>Chocolate Cake</h3>
+          <p>Rich, dark, and decadent — our homemade chocolate cake is layered with velvety ganache and chocolate cream.</p>
+          <div class="price-req-badge">💰 Price as per your requirement</div>
+          <button class="btn btn-menu-order btn-full" data-page="order">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-card">
+        <div class="menu-card-img">
+          <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800&q=80" alt="Vanilla Cake" />
+          <span class="cake-tag">Classic</span>
+        </div>
+        <div class="menu-card-body">
+          <h3>Vanilla Cake</h3>
+          <p>Light, fluffy vanilla sponge topped with smooth vanilla buttercream. Simple, elegant, and always delicious.</p>
+          <div class="price-req-badge">💰 Price as per your requirement</div>
+          <button class="btn btn-menu-order btn-full" data-page="order">Order Now</button>
+        </div>
+      </div>
+
+      <div class="menu-card">
+        <div class="menu-card-img">
+          <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80" alt="Strawberry Cake" />
+          <span class="cake-tag">Fruit</span>
+        </div>
+        <div class="menu-card-body">
+          <h3>Strawberry Cake</h3>
+          <p>Fresh and fruity strawberry cake layered with strawberry cream and topped with whole fresh strawberries.</p>
+          <div class="price-req-badge">💰 Price as per your requirement</div>
+          <button class="btn btn-menu-order btn-full" data-page="order">Order Now</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div><!-- /page-menu -->
+
+<!-- ================================================================ -->
+<!-- ORDER PAGE -->
+<!-- ================================================================ -->
+<div id="page-order" class="page">
+  <div class="page-header" style="background:var(--primary-light)">
+    <h1>Place Your <span>Order</span></h1>
+    <p>Fill out the details below and we'll start baking your happiness.</p>
+  </div>
+
+  <section class="order-section">
+    <div class="order-form-wrap">
+
+      <!-- Success Screen -->
+      <div class="order-success" id="orderSuccess">
+        <div class="success-icon">✅</div>
+        <h2>Order Placed!</h2>
+        <p>Thank you for choosing Shree Matangi Cake. We have received your order and will contact you shortly to confirm delivery details.</p>
+        <div class="order-success-btns">
+          <button class="btn btn-primary btn-full" id="backToMenu">Order Another Cake</button>
+          <button class="btn btn-outline btn-full" id="backToHome">Return to Home</button>
+        </div>
+      </div>
+
+      <!-- Order Form -->
+      <form id="orderForm">
+
+        <!-- Cake Selection -->
+        <div class="form-card">
+          <div class="form-card-title"><span>🎂</span> Cake Selection</div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="orderCake">Select Cake *</label>
+              <select id="orderCake" class="form-control">
+                <option value="">-- Choose a cake --</option>
+                <option value="doll">Doll Cake</option>
+                <option value="chocolate">Chocolate Cake</option>
+                <option value="vanilla">Vanilla Cake</option>
+                <option value="strawberry">Strawberry Cake</option>
+              </select>
+              <span class="form-error" id="errCake">Please select a cake</span>
+            </div>
+            <div class="form-group">
+              <label for="orderWeight">Select Weight / Quantity *</label>
+              <select id="orderWeight" class="form-control">
+                <option value="">-- Choose weight --</option>
+                <option value="500gm">500 gm</option>
+                <option value="750gm">750 gm</option>
+                <option value="1kg">1 kg</option>
+                <option value="1.5kg">1.5 kg</option>
+                <option value="2kg">2 kg</option>
+                <option value="2.5kg">2.5 kg</option>
+                <option value="3kg">3 kg</option>
+                <option value="custom">Custom</option>
+              </select>
+              <span class="form-error" id="errWeight">Please select a weight</span>
+            </div>
+          </div>
+
+          <!-- Custom weight input -->
+          <div class="custom-weight-wrap" id="customWeightWrap">
+            <div class="form-group">
+              <label for="customWeight">Enter Custom Weight</label>
+              <input type="text" id="customWeight" class="form-control" placeholder="e.g. 1.2 kg or 800 gm" />
+            </div>
+          </div>
+
+          <!-- Order Summary -->
+          <div class="order-summary" id="orderSummary">
+            <div>
+              <h4 id="summaryName"></h4>
+              <p>Weight: <strong id="summaryWeight"></strong></p>
+            </div>
+            <div class="order-summary-right">
+              <p>Contact us for pricing</p>
+              <p class="contact-hint">📞 9173105370</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Delivery Details -->
+        <div class="form-card">
+          <div class="form-card-title">Delivery Details</div>
+          <div class="form-row" style="margin-bottom:1.25rem">
+            <div class="form-group">
+              <label for="customerName">Full Name *</label>
+              <input type="text" id="customerName" class="form-control" placeholder="e.g. Jane Doe" />
+              <span class="form-error" id="errName">Name must be at least 2 characters</span>
+            </div>
+            <div class="form-group">
+              <label for="contactNo">Contact Number *</label>
+              <input type="tel" id="contactNo" class="form-control" placeholder="e.g. +91 98765 43210" />
+              <span class="form-error" id="errContact">Valid phone number required</span>
+            </div>
+          </div>
+          <div class="form-group" style="margin-bottom:1.25rem">
+            <label for="address">Full Delivery Address *</label>
+            <textarea id="address" class="form-control" placeholder="House no, Street, Landmark, Pincode"></textarea>
+            <span class="form-error" id="errAddress">Full address is required</span>
+          </div>
+          <div class="form-group">
+            <label for="specialInstructions">Special Instructions (Optional)</label>
+            <textarea id="specialInstructions" class="form-control" style="min-height:80px" placeholder="Eggless? Message on cake? Delivery time preference?"></textarea>
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn btn-primary" style="padding:0.85rem 3rem;font-size:1.05rem">Confirm Order</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</div><!-- /page-order -->
+
+<!-- ================================================================ -->
+<!-- REVIEWS PAGE -->
+<!-- ================================================================ -->
+<div id="page-reviews" class="page">
+  <div class="reviews-hero">
+    <div style="font-size:3rem;margin-bottom:1rem">💬</div>
+    <h1>Sweet Words From You</h1>
+    <p>Your love and feedback keep our ovens warm and hearts happy.</p>
+  </div>
+
+  <div class="reviews-main">
+    <!-- Reviews List -->
+    <div class="reviews-list">
+      <h2>Recent Reviews</h2>
+      <div id="reviewsList"></div>
+    </div>
+
+    <!-- Submit Form -->
+    <div class="review-form-wrap">
+      <h3>Leave a Review</h3>
+      <form id="reviewForm">
+        <div class="form-group" style="margin-bottom:1rem">
+          <label for="reviewName">Your Name</label>
+          <input type="text" id="reviewName" class="form-control" placeholder="Your name" required minlength="2" />
+        </div>
+        <div class="form-group" style="margin-bottom:1rem">
+          <label>Rating</label>
+          <div class="star-rating">
+            <button type="button" class="star-btn active">★</button>
+            <button type="button" class="star-btn active">★</button>
+            <button type="button" class="star-btn active">★</button>
+            <button type="button" class="star-btn active">★</button>
+            <button type="button" class="star-btn active">★</button>
+          </div>
+        </div>
+        <div class="form-group" style="margin-bottom:1.25rem">
+          <label for="reviewComment">Your Experience</label>
+          <textarea id="reviewComment" class="form-control" placeholder="The cake was amazing because..." required minlength="5"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-full">Submit Review</button>
+        <div class="review-success-msg" id="reviewSuccess">✅ Thank you for your review! ❤️</div>
+      </form>
+    </div>
+  </div>
+</div><!-- /page-reviews -->
+
+<!-- ================================================================ -->
+<!-- ADMIN PAGE -->
+<!-- ================================================================ -->
+<div id="page-admin" class="page">
+
+  <!-- Login -->
+  <div class="admin-login-wrap" id="adminLoginWrap">
+    <div class="admin-login-card">
+      <div class="admin-lock-icon">🔒</div>
+      <h1>Admin Login</h1>
+      <p class="subtitle">Enter your credentials to continue</p>
+      <form id="adminLoginForm">
+        <div class="form-group" style="margin-bottom:1rem;text-align:left">
+          <label for="adminId">Admin ID</label>
+          <input type="text" id="adminId" class="form-control" placeholder="@shreematangi.com" />
+        </div>
+        <div class="form-group" style="margin-bottom:0.5rem;text-align:left">
+          <label for="adminPassword">Password</label>
+          <div class="pw-wrap">
+            <input type="password" id="adminPassword" class="form-control" placeholder="Enter password" style="padding-right:2.75rem" />
+            <button type="button" class="pw-toggle" id="togglePw">👁</button>
+          </div>
+        </div>
+        <div class="login-error" id="loginError">Invalid ID or password. Please try again.</div>
+        <button type="submit" class="btn btn-primary btn-full" style="margin-top:1rem">Login</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Dashboard -->
+  <div class="admin-dashboard" id="adminDashboard">
+    <div class="admin-header">
+      <div class="admin-header-inner">
+        <div>
+          <h1>🛡️ Admin Dashboard</h1>
+          <p>Manage your bakery menu, orders, and business details.</p>
+        </div>
+        <button class="btn btn-outline" onclick="adminLogout()" style="color:white;border-color:rgba(255,255,255,0.3)">Logout</button>
+      </div>
+    </div>
+
+    <div class="admin-content">
+      <!-- Tabs -->
+      <div class="admin-tabs">
+        <button class="admin-tab active" data-tab="cakes">🎂 Menu Management</button>
+        <button class="admin-tab" data-tab="orders">🛍️ View Orders</button>
+        <button class="admin-tab" data-tab="contact">📞 Business Contact Info</button>
+      </div>
+
+      <!-- Cakes Panel -->
+      <div class="admin-panel active" id="panel-cakes">
+        <h2 style="margin-bottom:1.5rem;font-size:1.5rem">Cake Menu</h2>
+        <div class="admin-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Photo</th>
+                <th>Cake Name</th>
+                <th>Category</th>
+                <th>Pricing</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img class="table-img" src="https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=200&q=80" alt="Doll Cake" /></td>
+                <td><strong>Doll Cake</strong></td>
+                <td>Kids</td>
+                <td><span class="badge-req">As per requirement</span></td>
+                <td><span class="badge-available">Available</span></td>
+              </tr>
+              <tr>
+                <td><img class="table-img" src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=200&q=80" alt="Chocolate Cake" /></td>
+                <td><strong>Chocolate Cake</strong></td>
+                <td>Chocolate</td>
+                <td><span class="badge-req">As per requirement</span></td>
+                <td><span class="badge-available">Available</span></td>
+              </tr>
+              <tr>
+                <td><img class="table-img" src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=200&q=80" alt="Vanilla Cake" /></td>
+                <td><strong>Vanilla Cake</strong></td>
+                <td>Classic</td>
+                <td><span class="badge-req">As per requirement</span></td>
+                <td><span class="badge-available">Available</span></td>
+              </tr>
+              <tr>
+                <td><img class="table-img" src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=200&q=80" alt="Strawberry Cake" /></td>
+                <td><strong>Strawberry Cake</strong></td>
+                <td>Fruit</td>
+                <td><span class="badge-req">As per requirement</span></td>
+                <td><span class="badge-available">Available</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Orders Panel -->
+      <div class="admin-panel" id="panel-orders">
+        <h2 style="margin-bottom:1.5rem;font-size:1.5rem">Recent Orders</h2>
+        <div class="admin-table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Customer</th>
+                <th>Cake</th>
+                <th>Weight</th>
+                <th>Contact</th>
+                <th>Date</th>
+              </tr>
+            </thead>
+            <tbody id="ordersTableBody">
+              <tr><td colspan="6" style="text-align:center;padding:2rem;color:var(--muted)">No orders yet.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Contact Panel -->
+      <div class="admin-panel" id="panel-contact">
+        <h2 style="margin-bottom:1.5rem;font-size:1.5rem">Business Details</h2>
+        <div class="contact-info-card">
+          <div class="contact-row">
+            <div class="contact-icon">📞</div>
+            <div>
+              <h4>Phone Numbers</h4>
+              <a href="tel:+919173105370">+91 91731 05370</a>
+              <a href="tel:+919898361373">+91 98983 61373</a>
+              <p style="font-size:0.78rem;color:var(--muted);margin-top:4px">Customers call these for order confirmations.</p>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <h4>Email Address</h4>
+              <a href="mailto:shreematangicake@gmail.com">shreematangicake@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h4>Bakery Location</h4>
+              <p>21, Vrundavan Bunglows, Uvarsad, Gandhinagar, 382422</p>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-icon">📸</div>
+            <div>
+              <h4>Instagram</h4>
+              <a href="https://www.instagram.com/shreematangicake1980" target="_blank">@shreematangicake1980</a>
+            </div>
+          </div>
+          <div class="contact-row">
+            <div class="contact-icon">👍</div>
+            <div>
+              <h4>Facebook</h4>
+              <a href="https://www.facebook.com/shreematangicake1980" target="_blank">shreematangicake1980</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div><!-- /page-admin -->
+
+<!-- ================================================================ -->
+<!-- FOOTER -->
+<!-- ================================================================ -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <div style="display:flex;align-items:center;gap:10px">
+        <div class="nav-brand-icon">🎂</div>
+        <span class="footer-brand-name">Shree Matangi Cake</span>
+      </div>
+      <p class="footer-brand-desc">Bringing joy to your special moments with lovingly handcrafted, fresh, and beautiful cakes. Baked at home, served from the heart.</p>
+      <div class="social-links">
+        <a class="social-btn" href="https://www.instagram.com/shreematangicake1980" target="_blank" rel="noopener" title="Instagram">📸</a>
+        <a class="social-btn" href="https://www.facebook.com/shreematangicake1980" target="_blank" rel="noopener" title="Facebook">👍</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul class="footer-links">
+        <li><a data-page="home">Home</a></li>
+        <li><a data-page="menu">Our Menu</a></li>
+        <li><a data-page="order">Place an Order</a></li>
+        <li><a data-page="reviews">Customer Reviews</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Contact Us</h3>
+      <ul class="footer-contact-list">
+        <li class="footer-contact-item">
+          <span class="ico">📍</span>
+          <p>21, Vrundavan Bunglows, Uvarsad, Gandhinagar, 382422</p>
+        </li>
+        <li class="footer-contact-item">
+          <span class="ico">📞</span>
+          <div>
+            <a href="tel:+919173105370">+91 91731 05370</a>
+            <a href="tel:+919898361373">+91 98983 61373</a>
+          </div>
+        </li>
+        <li class="footer-contact-item">
+          <span class="ico">✉️</span>
+          <a href="mailto:shreematangicake@gmail.com">shreematangicake@gmail.com</a>
+        </li>
+        <li class="footer-contact-item">
+          <span class="ico">📸</span>
+          <a href="https://www.instagram.com/shreematangicake1980" target="_blank">@shreematangicake1980</a>
+        </li>
+        <li class="footer-contact-item">
+          <span class="ico">👍</span>
+          <a href="https://www.facebook.com/shreematangicake1980" target="_blank">shreematangicake1980</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> Shree Matangi Cake. All rights reserved.</p>
+    <p>Made with ❤️ for cake lovers</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
